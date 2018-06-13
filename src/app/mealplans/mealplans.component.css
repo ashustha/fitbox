@@ -1,0 +1,43 @@
+.main-wrapper{
+	padding: 30px 0;
+}
+
+.title{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.title h1{
+	font-size: 24px;
+	font-weight: 700;
+	color: #c12026;
+}
+
+
+.gallery img{
+	width: 100%;
+}
+
+.gallery{
+	position: relative;
+	padding-bottom: 20px;
+}
+
+.gallery .caption-background:after{
+	position: absolute;
+	content: '';
+	background-color: #eee;
+	height: 50px;
+	width: 100%;
+	bottom: 20px;
+	left: 0;
+	z-index: 5;
+	opacity: 0.5;
+}
+
+.gallery .caption-text{
+	position: absolute;
+	bottom: 21px;
+	left: 10px;
+	z-index: 9;
+}

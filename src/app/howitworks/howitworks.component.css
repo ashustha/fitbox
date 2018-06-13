@@ -1,0 +1,86 @@
+.main-wrapper{
+	padding: 30px;
+}
+
+.title h1{
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+	display: inline-block;
+	position: relative;
+}
+
+.title h1:after{
+	position: absolute;
+	bottom:0;
+	left: 0;
+	content: '';
+	background-color: red;
+	height: 4px;
+	width: 100%;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #000;
+    background-color: transparent;
+}
+
+.pills-wrapper ul li{
+	position: relative;
+	text-transform: uppercase;
+}
+
+.pills-wrapper ul li:after{
+	position: absolute;
+	content: '';
+	background-color: #000;
+	height: 10px;
+	top: 16px;
+	width: 1px;
+	right: 0;
+}
+
+.content-wrapper{
+	padding: 30px 0;	
+}
+
+.subtitle{
+	text-align: center;
+}
+
+.subtitle h2{
+	font-size: 24px;
+	    font-weight: 700;
+	    color: #c12026;
+}
+
+.content{
+	padding-top: 30px;
+}
+
+.inner-content{
+	text-align: center;
+}
+
+.inner-content img{
+	margin-bottom: 30px;
+}
+
+.contentText{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.pills-wrapper{
+	margin-top: 10px;
+}
+
+.table th{
+	text-align: center;
+	padding: 15px;
+}
+
+.table td{
+	text-align-last: center;
+	padding: 15px;
+}

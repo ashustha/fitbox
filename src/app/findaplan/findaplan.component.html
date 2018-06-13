@@ -1,0 +1,153 @@
+<div class="main-wrapper">
+    <div class="container">
+        <div class="title">
+            <h1>Find your Perfect Plan</h1>
+        </div>
+        <div class="subtitle">
+            <h2>Tell us a little about your lifestyle and we'll suggest the best transformation plan for your body.</h2>
+        </div>
+        <div class="wizard">
+            <div class="wizard-inner">
+                <div class="connecting-line"></div>
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                    	<h3>1. Select your gender</h3>
+                        <a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" title="Step 1">
+                            <span class="round-tab"></span>
+                        </a>
+                    </li>
+                    <li role="presentation" class="disabled">
+                    	<h3>2. Select your goals</h3>
+                        <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="Step 2">
+                            <span class="round-tab"></span>
+                        </a>
+                    </li>
+                    <li role="presentation" class="disabled">
+                    	<h3>3. Personal Details</h3>
+                        <a href="#step3" data-toggle="tab" aria-controls="step3" role="tab" title="Step 3">
+                            <span class="round-tab"></span>
+                        </a>
+                    </li>
+                    <li role="presentation" class="disabled">
+                    	<h3>4. Delivery Point</h3>
+                        <a href="#complete" data-toggle="tab" aria-controls="complete" role="tab" title="Complete">
+                            <span class="round-tab"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <form role="form">
+                <div class="tab-content">
+                    <div class="tab-pane active" role="tabpanel" id="step1">
+                        <div class="slider-inner-content">
+                            <form>
+                                <input type="radio" name="emotion" id="men" class="input-hidden" />
+                                <label for="men">
+                                  <img src="../../assets/img/boy.png" alt="Men" class="img-circle" />
+                                </label>
+                                <input type="radio" name="emotion" id="women" class="input-hidden" />
+                                <label for="women">
+                                  <img src="../../assets/img/woman.png" alt="Women" class="img-circle" />
+                                </label>
+                              </form>
+                        </div>
+                        <ul class="list-inline pull-right">
+                            <li>
+                                <button type="button" class="btn btn-primary next-step">continue</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="step2">
+                        <div class="slider-inner-content">
+                            <form>
+                                <input type="radio" name="emotion" id="Gain" class="input-hidden" />
+                                <label for="Gain">
+                                  <img src="../../assets/img/scale2.png" alt="Gain" class="img-circle" />
+                                </label>
+                                <h3>Weight Gain</h3>
+                                <input type="radio" name="emotion" id="Lose" class="input-hidden" />
+                                <label for="Lose">
+                                  <img src="../../assets/img/scale.png" alt="Lose" class="img-circle" />
+                                </label>
+                                <h3>Weight Lose</h3>
+                              </form>
+                        </div>
+                        <ul class="list-inline pull-right">
+                            <li>
+                                <button type="button" class="btn btn-default prev-step">Previous</button>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-primary next-step">continue</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="step3">
+                        <div class="slider-inner-content user-form">
+                            <form>
+                                <div class="form-group">
+                                  <label for="usr">Name:</label>
+                                  <input type="text" class="form-control" id="usr" placeholder="Enter full name">
+                                </div>
+                                <div class="form-group">
+                                  <label for="home">Home Address:</label>
+                                  <input type="text" class="form-control" id="home" placeholder="Enter home address">
+                                </div>
+                                <div class="form-group row">
+                                  <div class="col-md-6">
+                                      <label for="phone">Phone:</label>
+                                      <input type="text" class="form-control" id="phone" placeholder="Enter phone number">
+                                  </div>
+                                  <div class="col-md-6">
+                                      <label for="mobile">Mobile:</label>
+                                      <input type="text" class="form-control" id="mobile" placeholder="Enter mobile number">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label for="email">Email:</label>
+                                  <input type="email" class="form-control" id="email" placeholder="Enter email address">
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-md-6">
+                                        <label for="age">Age:</label>
+                                        <input type="text" class="form-control" id="age" placeholder="Enter age">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="weight">Weight:</label>
+                                        <input type="text" class="form-control" id="weight" placeholder="Enter weight">
+                                    </div>
+                                </div>
+                              </form>
+                        </div>
+                        <ul class="list-inline pull-right">
+                            <li>
+                                <button type="button" class="btn btn-default prev-step">Previous</button>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-primary btn-info-full next-step">continue</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="complete">
+                        <div class="slider-inner-content user-form">
+                            <form>
+                                <div class="form-group">
+                                    <label for="delivery">Delivery Point</label>
+                                    <input type="text" class="form-control" id="delivery">
+                                </div>
+                            </form>
+                        </div>
+                        <ul class="list-inline pull-right">
+                            <li>
+                                <button type="button" class="btn btn-default prev-step">Previous</button>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-primary btn-info-full next-step">continue</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.nav>li>a, .nav>li>a {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.banner-wrapper{
+	background: url(../../assets/img/banner.jpg);
+	background-position: center center;
+	background-size: cover;
+	height: 90vh;
+    position: relative;
+}
+
+.logo img{
+    max-width: 20vw;
+}
+
+.logo{
+    position: absolute;
+    top: 40vh;
+    left: 20vw;
+}

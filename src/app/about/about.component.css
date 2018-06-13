@@ -1,0 +1,61 @@
+.about-background{
+	background: url(../../assets/img/about.jpg);
+	background-position: center center;
+	background-size: cover;
+	height: 30vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-background:after{
+	position: absolute;
+	content: '';
+	background-color: #000;
+	opacity: 0.4;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.quote{
+	text-align: center;
+}
+
+.quote h1:first-child{
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.quote h1{
+	text-transform: uppercase;
+	font-size: 28px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	color: #ffffff;
+	position: relative;
+	z-index: 9;
+}
+
+.about-btn{
+	position: relative;
+	z-index: 9;
+	background-color: #c12026;
+	color: #fff;
+	letter-spacing: 1px;
+	border-radius: 0;
+	min-width: 150px;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+@media only screen and (max-width: 768px){
+	.quote h1:first-child{
+		font-size: 16px;
+	}
+
+	.quote h1{
+		font-size: 22px;
+	}
+}

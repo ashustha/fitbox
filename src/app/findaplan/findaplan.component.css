@@ -1,0 +1,237 @@
+.main-wrapper {
+    padding: 30px 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #c12026;
+}
+
+.subtitle {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.subtitle h2 {
+    color: #c12026;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+@media only screen and (max-width: 768px) {
+    .subtitle {
+        width: 80%;
+    }
+}
+
+
+/*-----------------------------------------------*/
+
+.wizard {
+    margin: 20px auto;
+    background: #fff;
+}
+
+.wizard h3{
+    font-size: 14px;
+    text-align: center;
+}
+
+.wizard .nav-tabs {
+    position: relative;
+    margin: 40px auto;
+    margin-bottom: 0;
+    border-bottom-color: transparent;
+}
+
+.wizard>div.wizard-inner {
+    position: relative;
+}
+
+.connecting-line {
+    height: 2px;
+    background: #e0e0e0;
+    position: absolute;
+    width: 75%;
+    margin: 0 auto;
+    left: -16px;
+    right: 0;
+    top: 59%;
+    z-index: 1;
+}
+
+.wizard .nav-tabs>li.active>a,
+.wizard .nav-tabs>li.active>a:hover,
+.wizard .nav-tabs>li.active>a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tab {
+    width: 20px;
+    height: 20px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 100px;
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+span.round-tab i {
+    color: #555555;
+}
+
+.wizard li.active span.round-tab {
+    background: #c12026;
+    border: 2px solid #c12026;
+}
+
+.wizard li.active span.round-tab i {
+    color: #5bc0de;
+}
+
+span.round-tab:hover {
+    color: #333;
+    border: 2px solid #333;
+}
+
+.wizard .nav-tabs>li {
+    width: 25%;
+}
+
+.wizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: #5bc0de;
+    transition: 0.1s ease-in-out;
+}
+
+
+/* .wizard li.active:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 1;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-bottom-color: #5bc0de;
+}
+ */
+
+.wizard .nav-tabs>li a {
+    width: 20px;
+    height: 20px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+.wizard .nav-tabs>li a:hover {
+    background: transparent;
+}
+
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 20px;
+}
+
+.wizard h3 {
+    margin-top: 0;
+}
+
+@media( max-width: 585px) {
+
+    .wizard {
+        width: 90%;
+        height: auto !important;
+    }
+
+    span.round-tab {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard .nav-tabs>li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
+}
+
+/*---------------------
+--------------------------*/
+.input-hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+.slider-inner-content img{
+    margin: 0 20px;
+    padding: 5px;
+}
+
+input[type=radio]:checked + label>img {
+  border: 3px solid #c12026;
+  padding: 10px;
+
+}
+
+/* Stuff after this is only to make things more pretty */
+input[type=radio] + label>img {
+  border: 1px solid #444;
+  width: 150px;
+  height: 150px;
+  transition: 500ms all;
+
+}
+
+.slider-inner-content{
+    text-align: center;
+}
+
+/*--------------------------------------*/
+.user-form{
+    text-align: left;
+    width: 50%;
+    margin: 0 auto
+}
+
+.form-control{
+    border-radius: 0;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.slider-inner-content h3{
+    display: inline-block;
+}
